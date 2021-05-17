@@ -1,0 +1,154 @@
+/*Navigation*/ 
+
+.navbar {
+    background-color: #F9DCDC;
+    height: fit-content;
+  }
+  .nav-item a {
+    text-decoration: none;
+    font-family: 'Merriweather';
+    color: #59656F;
+  }
+  
+  .nav-item a:hover {
+    color: #DC0073;  
+  }
+  .navbar p {
+    color: #59656F;
+    font-weight:500;
+    font-size: 60px;
+    font-family: 'montserrat';
+    letter-spacing: 16px;
+  }
+  
+  
+  /*main*/
+  
+  body {
+      background-color:#F9DCDC;
+      }
+  .ellipseCindy {
+    width: 35vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8%;
+  }
+  
+  .AboutMe {
+    width: 800px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .AboutMe p {
+    font-family: 'merriweather';
+    font-size: 20px;
+    color: #001858;
+    text-align: justify;
+  }
+  .AboutMe h4 {
+    color: #DC0073;
+    font-family: 'merriweather';
+    font-size: 26px;
+    padding: 2%;
+  }
+  .resume, .getinTouch {
+    font-family: 'merriweather';
+    font-size: 20px;
+    color: #DC0073;
+  }
+  a:hover {
+    color:#59656F;
+    text-decoration: none;
+  }
+  
+  .links{
+    margin-bottom: 10%;
+  }
+  
+  
+  /*.Container {
+      font-size: 20px;
+      text-align: center;
+      width: 1000px;
+      margin: 0 auto;
+         
+    }
+    .photoCindy {
+      float: left;
+      width: 400px;
+      margin-top: 50px;
+      margin-left: -30px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+  
+    .AboutMe {
+      float: right;  
+      margin-bottom: 100px;
+      margin-top: 40px;
+      margin-left: 10px;
+      width: 500px;
+    }
+  
+    .AboutMe h4 { 
+      color: #6E7A87;
+      font-family: 'merriweather';
+    }
+      
+    .AboutMe p {
+      color: #879596;
+      font-family: 'merriweather';
+      font-size: 20px;
+      font-weight: 100;
+      text-align: justify;
+      display: inline;
+    }
+  
+    .AboutMe a {
+      color: 6E7A87;
+      font-family: 'merriweather';
+      text-decoration: none;
+    }
+    .AboutMe a:hover {
+      color: white;
+    }
+  
+    .resume, .getinTouch {
+        color: #6E7A87;
+    }
+  
+   /*footer*/
+   .footer {
+    height: 20vw;
+    background-color: #DC0073;
+  }
+  
+  .getInTouch {
+    color: white;
+    font-family: 'merriweather';
+    font-size: 64px;
+    text-align: center;
+    padding: 5%;
+  }
+  
+  .navbarCopyright {
+    background-color: #DC0073;
+  }
+  .copyright {
+    text-align: left;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    color: white;
+  }
+  .icon {
+    padding: 20px;
+  }
+  
+  .iconsLinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  

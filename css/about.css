@@ -13,12 +13,16 @@
   .nav-item a:hover {
     color: #DC0073;  
   }
-  .navbar p {
+  .logo {
     color: #59656F;
     font-weight:500;
     font-size: 60px;
     font-family: 'montserrat';
     letter-spacing: 16px;
+  }
+  .logo:hover {
+    color: #DC0073;  
+    text-decoration: none;
   }
   
   

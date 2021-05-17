@@ -1,25 +1,29 @@
 /*Navigation*/ 
 
 .navbar {
-    background-color:#F9DCDC;
+    background-color: #F9DCDC;
     height: fit-content;
-}
-.nav-item a {
+  }
+  .nav-item a {
     text-decoration: none;
     font-family: 'Merriweather';
     color: #59656F;
-}
-
-.nav-item a:hover {
+  }
+  
+  .nav-item a:hover {
     color: #DC0073;  
-}
-.navbar p {
+  }
+  .logo {
     color: #59656F;
     font-weight:500;
     font-size: 60px;
     font-family: 'montserrat';
     letter-spacing: 16px;
-}
+  }
+  .logo:hover {
+    color: #DC0073;  
+    text-decoration: none;
+  }
 
 /*Hero*/ 
 .Hero {

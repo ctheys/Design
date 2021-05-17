@@ -188,34 +188,52 @@ hr {
 
 
 /*footer*/
-.footer {
+
+footer {
     height: 20vw;
-    background-color: #DC0073;
+    background-color: #3D5A80;
+    display: flex;
+    align-items: center;
 }
 
-.getInTouch {
+.footerText, .footerIcons {
+    margin-left: 12vw;
+}
+.footerText h1 {
     color: white;
-    font-family: 'merriweather';
-    font-size: 50px;
-    text-align: center;
-    padding: 5%;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+}
+
+.footerText p {
+    font-family: Montserrat, sans-serif;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+
+.footer-link {
+    font-family: Montserrat, sans-serif;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin-right: 2vw;
+}
+
+.footer-link:hover {
+    color: #DC0073;
+    text-decoration: none;
 }
 
 .navbarCopyright {
-    background-color: #DC0073;
+    background-color: #3D5A80;
 }
 .copyright {
-    text-align: left;
-    margin-left: 5%;
-    margin-bottom: 5%;
+    margin-left: 12vw;
     color: white;
-}
-.icon {
-    padding: 20px;
-}
-
-.iconsLinks {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
 }

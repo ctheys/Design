@@ -11,7 +11,7 @@
   }
   
   .nav-item a:hover {
-    color: #DC0073;  
+    color: #3D5A80;  
   }
   .logo {
     color: #59656F;
@@ -69,24 +69,29 @@
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
+.btnHero:hover {
+    background-color: #3D5A80;
+    color: white;
+    text-decoration: none;
+}
       
 .PhotoAboutMe { grid-area: PhotoAboutMe; }    
 }
 
 #work {
-    background-color: #3D5A80;
+    background-color: #F9DCDC;
 }
 .caseStudies {
-    background-color: #3D5A80;
+    background-color: #F9DCDC;
     height:fit-content;
     padding: 20px;
 }
 
 .text-center { 
     text-align: center;
-    color: white;
+    color: #59656F;
     font-family: 'merriweather';
-    font-size: 64px;
+    font-size: 50px;
     padding: 5%;
 }
 .grid-container {
@@ -169,7 +174,7 @@
 .readMore {
     padding: 50px;
 }
-  .btnStudy {
+.btnStudy {
     background-color: #DC0073;
     color: white;
     font-family: 'merriweather';
@@ -181,6 +186,11 @@
     left: 50%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+}
+.btnStudy:hover {
+    background-color: #3D5A80;
+    color: white;
+    text-decoration: none;
 }
 
 .viewCaseStudy {
@@ -202,35 +212,61 @@
 }
 
 /*footer*/
-    .footer {
-        height: 20vw;
-        background-color: #DC0073;
-    }
 
-    .getInTouch {
-        color: white;
-        font-family: 'merriweather';
-        font-size: 50px;
-        text-align: center;
-        padding: 5%;
-    }
-    
-    .navbarCopyright {
-        background-color: #DC0073;
-    }
-    .copyright {
-        text-align: left;
-        margin-left: 5%;
-        margin-bottom: 5%;
-        color: white;
-    }
-    .icon {
-        padding: 20px;
-    }
+footer {
+    height: 20vw;
+    background-color: #3D5A80;
+    display: flex;
+    align-items: center;
+}
 
-    .iconsLinks {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+.footerText, .footerIcons {
+    margin-left: 12vw;
+}
+.footerText h1 {
+    color: white;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+}
+
+.footerText p {
+    font-family: Montserrat, sans-serif;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+
+.footer-link {
+    font-family: Montserrat, sans-serif;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin-right: 2vw;
+}
+
+.footer-link:hover {
+    color: #DC0073;
+    text-decoration: none;
+}
+
+.navbarCopyright {
+    background-color: #3D5A80;
+}
+.copyright {
+    margin-left: 12vw;
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+}
+/*.icon {
+    padding: 20px;
     }
+.iconsLinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}*/
 

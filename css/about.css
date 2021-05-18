@@ -6,7 +6,7 @@
   }
   .nav-item a {
     text-decoration: none;
-    font-family: 'Merriweather';
+    font-family: Montserrat, sans-serif;
     color: #59656F;
   }
   
@@ -17,7 +17,7 @@
     color: #59656F;
     font-weight:500;
     font-size: 60px;
-    font-family: 'montserrat';
+    font-family: Montserrat, sans-serif;
     letter-spacing: 16px;
   }
   .logo:hover {
@@ -47,19 +47,19 @@
     margin-right: auto;
   }
   .AboutMe p {
-    font-family: 'merriweather';
+    font-family: Montserrat, sans-serif;
     font-size: 20px;
     color: #001858;
     text-align: justify;
   }
   .AboutMe h4 {
     color: #DC0073;
-    font-family: 'merriweather';
+    font-family: Montserrat, sans-serif;
     font-size: 26px;
     padding: 2%;
   }
   .resume, .getinTouch {
-    font-family: 'merriweather';
+    font-family: Montserrat, sans-serif;
     font-size: 20px;
     color: #DC0073;
   }
@@ -137,7 +137,7 @@ footer {
 }
 .footerText h1 {
   color: white;
-  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: Montserrat, sans-serif;
   font-size: 18px;
   letter-spacing: 0.8px;
 }

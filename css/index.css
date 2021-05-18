@@ -1,3 +1,7 @@
+body {
+    background-color: #F9DCDC;
+}
+
 /*Navigation*/ 
 
 .navbar {
@@ -30,25 +34,16 @@
 .presentation {
     height: 40vw;
     background-color: #F9DCDC;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    gap: 0px 0px;
-    grid-template-areas: "About-Me PhotoAboutMe";
-}
-.ellipse {
-    max-width: 40vw;
-    margin-top: 5%;
-    margin-left: 5%;
+    text-align: center;
+    margin-left: 15vw;
+    margin-right: 15vw;
 }
 
 .About-Me h1 { 
-    grid-area: About-Me; 
-    margin-top: 5vw;
-    margin-left: 5vw;
+    margin-top:5vw;
     margin-bottom: 5%;
     text-align: center;
-    font-size: 42px;
+    font-size: 56px;
     font-family: Montserrat, sans-serif;
     font-weight: 400;
     line-height: 100px;
@@ -65,7 +60,7 @@
     padding: 12px 32px;
     margin: 0;
     position: absolute;
-    left: 27%;
+    left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
@@ -75,9 +70,6 @@
     text-decoration: none;
 }
       
-.PhotoAboutMe { grid-area: PhotoAboutMe; }    
-}
-
 #work {
     background-color: #F9DCDC;
 }

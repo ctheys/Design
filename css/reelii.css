@@ -8,10 +8,14 @@
     text-decoration: none;
     font-family: Montserrat, sans-serif;
     color: #59656F;
+    font-size: 20px;
   }
   
   .nav-item a:hover {
     color: #DC0073;  
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+  
   }
   .logo {
     color: #59656F;

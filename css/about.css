@@ -140,17 +140,25 @@ footer {
   font-size: 14px;
 }
 
+@media screen and (max-width: 992px) {
+  .ellipseCindy {
+    width: 50%;
+    display: block;
+  }
+
 @media screen and (max-width: 600px) {
 
   .ellipseCindy{
-   display: block;
     width: 100%; 
-    box-sizing: border-box; 
+    display: block;
+    float: left;
+    
   }
 
   .aboutMe {
     width: 100%;
-    display: block;  
-    position: static; 
+    float: right;
+
+
   }
 }

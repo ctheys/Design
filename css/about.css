@@ -140,16 +140,16 @@ footer {
   font-size: 14px;
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
 
   .ellipse {
-   justify-content: center;
-    width: 50%;  
+   display: block;
+    width: 100%;  
   }
 
   .aboutMe {
     width: 100%;
-    justify-content:right;   
+    display: block;  
     position: static; 
   }
   

@@ -142,7 +142,7 @@ footer {
 
 @media screen and (max-width: 600px) {
 
-  .ellipse {
+  .ellipseCindy{
    display: block;
     width: 100%;  
   }

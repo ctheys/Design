@@ -287,35 +287,31 @@ footer {
     }
     .caseStudies {
         margin-top: 80vw;
+        margin-left: auto;
+        margin-right: auto;
     }
 
-    
+
     .text-center { 
         font-size: 35px;
         margin-top: 8vw;
     }
       
     .reeliiImg { 
-        grid-area: reeliiImg; 
         background-image: url("../images/Reelii/reeliiImg.png");
-        background-size: cover;
-        min-height: 28vw;    
+        min-height: 45vw;    
     }
       
     .reeliiTxt,  .navyTxt, .PetTxt{ 
-        grid-area: reeliiTxt; 
-        background-color: white;
-        font-family: Montserrat, sans-serif;
         font-size: 20px;
-        font-style: bold;
         padding: 2%;
-        width: 320px;
+        width: 400px;
     }
     
     .reeliiTxt h3, .navyTxt h3, .PetTxt h3 {
-        margin-top: 15%;
-        margin-left: 5%;
-        margin-right: 5%;
+        margin-top: 2vw;
+        margin-left: 2vw;
+        margin-right: 2vw;
         font-size: 20px;
         text-align: center;
     }
@@ -327,10 +323,10 @@ footer {
         margin-right: 5%;
     }
     .leading-text {
-        margin-top: 10%;
-        margin-left: 7%;
-        margin-right: 7%;
-        font-size: 16px;
+        margin-top: 5vw;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        font-size: 14px;
         text-align: left;
     }
       

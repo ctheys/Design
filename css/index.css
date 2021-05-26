@@ -272,10 +272,9 @@ footer {
         margin-left: 2vw;
     }
 
-    .About-Me{
+    /*.About-Me{
         width: 100%;
-
-    }   
+    }*/   
     .About-Me h1 {
         margin-top:10vw;
         margin-bottom: 10vw;
@@ -284,6 +283,7 @@ footer {
     }
     .grid-container {
         display: inline-block;
+        padding: none;
     }
     .caseStudies {
         margin-top: 80vw;
@@ -297,23 +297,23 @@ footer {
       
     .reeliiImg { 
         background-image: url("../images/Reelii/reeliiImg.png");
-        min-height: 45vw;    
+        min-height: 40vw;    
     }
     .navyImg { 
         grid-area: navyImg; 
         background-image: url("../images/navy2.png");
-        min-height: 45vw;
+        min-height: 40vw;
     }      
     .petImg { 
         grid-area: petImg; 
         background-image: url("../images/pet.png");
-        min-height: 45vw;
+        min-height: 40vw;
     }
       
     .reeliiTxt,  .navyTxt, .PetTxt{ 
         font-size: 20px;
         padding: 2%;
-        width: 400px;
+        width: 300px;
         margin-bottom: 2vw;
     }
     

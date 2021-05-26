@@ -154,14 +154,18 @@ footer {
   .photoCindy {
     width: 100%;
     float:center;
+    padding: 2vw;
   }
   .ellipseCindy{
     width: 100%; 
     float: center;
+    padding: 2vw;
   }
   .aboutMe {
     width: 100%;
-    position:relative;
+    /*position:relative;*/
+    float: center;
+    padding: 2vw
   }
 
   footer {

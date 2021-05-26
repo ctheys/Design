@@ -148,16 +148,16 @@ footer {
 
 @media only screen and (max-width: 600px) {
 
-  /*.grid-container {
+  .grid-container {
     display: inline-block;
-  }*/
+  }
   .photoCindy {
     width: 100%;
-    float:left;
+    float:center;
   }
   .ellipseCindy{
     width: 100%; 
-    float: left;
+    float: center;
   }
   .aboutMe {
     width: 100%;

@@ -282,14 +282,17 @@ footer {
         text-align: center;
         font-size: 35px;
     }
-
+    .grid-container {
+        display: inline-block;
+    }
     .caseStudies {
         margin-top: 80vw;
     }
+
     
     .text-center { 
         font-size: 35px;
-        margin-top: 10vw;
+        margin-top: 8vw;
     }
       
     .reeliiImg { 

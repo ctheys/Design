@@ -267,46 +267,30 @@ footer {
 
 @media only screen and (max-width: 600px) {
 
-.logo {
-    font-size: 40px;
-    margin-left: 2vw;
+    .logo {
+        font-size: 40px;
+        margin-left: 2vw;
     }
 
-.About-Me{
-    width: 100%;
+    .About-Me{
+        width: 100%;
+
     }   
-.About-Me h1 {
-    margin-top:10vw;
-    margin-bottom: 10vw;
-    text-align: center;
-    font-size: 90px;
+    .About-Me h1 {
+        margin-top:10vw;
+        margin-bottom: 10vw;
+        text-align: center;
+        font-size: 35px;
     }
 
-.caseStudies {
-    background-color: #F9DCDC;
-    height:fit-content;
-    padding: 20px;
+    .caseStudies {
+        margin-top: 80vw;
     }
     
-.text-center { 
-    font-size: 90px;
-    padding: 80vw;
+    .text-center { 
+        font-size: 35px;
+        margin-top: 10vw;
     }
-    .grid-container {
-        display: grid;
-        grid-template-columns: 1.3fr 0.7fr;
-        grid-template-rows: 1fr 1fr 1fr;
-        gap: 30px 0px;
-        grid-template-areas:
-          "reeliiImg reeliiTxt"
-          "navyImg navyTxt"
-          "petImg PetTxt";
-      }
-    
-    #boxCenter {
-        margin-left: 10%;
-        margin-right: 10%;    
-      }
       
     .reeliiImg { 
         grid-area: reeliiImg; 

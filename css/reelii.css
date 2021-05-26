@@ -248,7 +248,10 @@ footer {
       font-size: 40px;
       margin-left: 2vw;
     }
+      
     footer {
-        height: 40vw;
+      height: 40vw;
     }
+  }
+  
 }  

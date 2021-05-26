@@ -346,9 +346,10 @@ footer {
         position: absolute;
         left: 50vw;
     }
-
-footer {
-    height: 40vw;
+     
+    footer {
+        height: 40vw;   
     }
+      
 }  
 

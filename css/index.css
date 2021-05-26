@@ -287,10 +287,12 @@ footer {
     }
     .caseStudies {
         margin-top: 80vw;
+
+    }
+    #boxCenter {
         margin-left: auto;
         margin-right: auto;
     }
-
 
     .text-center { 
         font-size: 35px;
@@ -301,11 +303,22 @@ footer {
         background-image: url("../images/Reelii/reeliiImg.png");
         min-height: 45vw;    
     }
+    .navyImg { 
+        grid-area: navyImg; 
+        background-image: url("../images/navy2.png");
+        min-height: 45vw;
+    }      
+    .petImg { 
+        grid-area: petImg; 
+        background-image: url("../images/pet.png");
+        min-height: 45vw;
+    }
       
     .reeliiTxt,  .navyTxt, .PetTxt{ 
         font-size: 20px;
         padding: 2%;
         width: 400px;
+        margin-bottom: 2vw;
     }
     
     .reeliiTxt h3, .navyTxt h3, .PetTxt h3 {
@@ -329,18 +342,13 @@ footer {
         font-size: 14px;
         text-align: left;
     }
-      
-    .navyImg { 
-        grid-area: navyImg; 
-        background-image: url("../images/navy2.png");
-        background-size: cover;
-        min-height: 28vw;
-    }      
-    .petImg { 
-        grid-area: petImg; 
-        background-image: url("../images/pet.png");
-        background-size: cover;
-        min-height: 28vw;
+    .reeliiTxt button, .navyTxt button, .PetTxt button {
+        margin-bottom: 10vw;
+    }  
+    .viewCaseStudy {
+        padding: 2vw 2vw;
+        position: absolute;
+        left: 50vw;
     }
 
 footer {

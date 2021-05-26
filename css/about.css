@@ -153,10 +153,6 @@ footer {
     margin-left: 2vw;
   }
 
-  .nav justify-content-end {
-    display: block;
-    justify-content: center;
-  }
   .grid-container {
     display: inline-block;
   }
@@ -175,8 +171,7 @@ footer {
     margin-left: 10vw;
   }
 
-  /*footer {
-    display: flex;
-    align-items: center;
+  footer {
+    height:fit-content
   }
 }

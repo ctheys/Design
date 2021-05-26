@@ -213,7 +213,7 @@ footer {
     height: 20vw;
     background-color: #3D5A80;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
 }
 
 .footerText, .footerIcons {

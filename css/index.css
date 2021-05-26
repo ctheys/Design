@@ -281,18 +281,16 @@ footer {
     text-align: center;
     font-size: 90px;
     }
+
 .caseStudies {
     background-color: #F9DCDC;
     height:fit-content;
     padding: 20px;
     }
     
-    .text-center { 
-        text-align: center;
-        color: #59656F;
-        font-family: Montserrat, sans-serif;
-        font-size: 40px;
-        padding: 5%;
+.text-center { 
+    font-size: 90px;
+    padding: 80vw;
     }
     .grid-container {
         display: grid;
@@ -354,22 +352,14 @@ footer {
         background-image: url("../images/navy2.png");
         background-size: cover;
         min-height: 28vw;
-    }
-      
-    .navyTxt { 
-        grid-area: navyTxt; 
-    }
-      
+    }      
     .petImg { 
         grid-area: petImg; 
         background-image: url("../images/pet.png");
         background-size: cover;
         min-height: 28vw;
     }
-      
-    .PetTxt { 
-        grid-area: PetTxt; 
-    }
+
 footer {
     height: 40vw;
     }

@@ -152,12 +152,12 @@ footer {
     display: inline-block;
   }
   .photoCindy {
-    width: 100%;
+    width: 80%;
     float:center;
     padding: 2vw;
   }
   .ellipseCindy{
-    width: 100%; 
+    width: 80%; 
     float: center;
     padding: 2vw;
   }

@@ -1,7 +1,7 @@
 /*Navigation*/ 
 
 .navbar {
-  background-color: #F9DCDC;
+  background-color: #FCEEEE;
   height: fit-content;
 }
 .nav-item a {
@@ -32,7 +32,7 @@
   /*main*/
   
   body {
-    background-color:#F9DCDC;
+    background-color:#FCEEEE;
   }
 
   .grid-container {

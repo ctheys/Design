@@ -75,12 +75,23 @@
     font-size: 20px;
     text-align: left;
   }
-  .resume, .getinTouch {
+  .links button {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: #FCEEEE;
     font-family: Montserrat, sans-serif;
+    border: #FCEEEE;
+  }
+
+  .links a {
     font-size: 20px;
     color: #DC0073;
+    font-weight: 400;
     text-align: center;
+    letter-spacing: 0.8px;
+    text-indent: 0px;
   }
+ 
   a:hover {
     color:#59656F;
     text-decoration: none;

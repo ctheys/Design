@@ -212,50 +212,50 @@ footer {
     height: 20vw;
     background-color: #3D5A80;
     display: flex;
-    align-items: flex-end;
-}
-
-.footerText, .footerIcons {
+    align-items: center;
+  }
+  
+  .footerText, .footerIcons {
     margin-left: 12vw;
-}
-.footerText h1 {
+  }
+  .footerText h1 {
     color: white;
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 18px;
     letter-spacing: 0.8px;
-}
-
-.footerText p {
+  }
+  
+  .footerText p {
     font-family: Montserrat, sans-serif;
     color: #fff;
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 0.5px;
-}
-
-.footer-link {
+  }
+  
+  .footer-link {
     font-family: Montserrat, sans-serif;
     color: #fff;
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 0.5px;
     margin-right: 2vw;
-}
-
-.footer-link:hover {
+  }
+  
+  .footer-link:hover {
     color: #DC0073;
     text-decoration: none;
-}
-
-.navbarCopyright {
+  }
+  
+  .navbarCopyright {
     background-color: #3D5A80;
-}
-.copyright {
+  }
+  .copyright {
     margin-left: 12vw;
     color: white;
     font-family: Montserrat, sans-serif;
     font-size: 14px;
-}
+  }
 /*.icon {
     padding: 20px;
     }

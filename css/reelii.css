@@ -123,6 +123,7 @@
     margin-top: 3vw;
     margin-left: 8vw;
     margin-right: 8vw;
+    margin-bottom: 5vw;
 }
 
 .column {
@@ -186,6 +187,10 @@ hr {
     -webkit-box-pack: justify;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+.HiProt1 {
+    margin-bottom: 5vw;
 }
 
 

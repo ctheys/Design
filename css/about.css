@@ -15,17 +15,44 @@
   color: #DC0073;  
   text-decoration: underline;
   text-decoration-thickness: 5px;
+}
+.nav {
+  margin-right: 8vw;
+}
 
+.getInTouch {
+  background-color: #FCEEEE;
+  border: 2px solid #DC0073;
+  padding: 10px 22px;
+  margin-top: -0.2vw;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Montserrat, sans-serif;
+  border-radius: 100px;
+  cursor: pointer;
+}
+.getInTouch a {
+  color: #59656F;
+}  
+
+.getInTouch:hover {
+  background-color: #DC0073;
+  border: 2px solid #DC0073;
+}
+.getInTouch a:hover{
+    color: white;
 }
 .logo {
   color: #59656F;
   font-weight:500;
-  font-size: 60px;
+  font-size: 45px;
   font-family: Montserrat, sans-serif;
   letter-spacing: 16px;
+  margin-left: 8vw;
 }
 .logo:hover {
-  color: #DC0073;  
+  color: #59656F; 
   text-decoration: none;
 }
   
@@ -49,16 +76,16 @@
   }
   
   .ellipseCindy {
-    width: 25vw;
-    margin-left: 15vw;
+    width: 28vw;
+    margin-left: 10vw;
     margin-top: 5vw;
   }
   .aboutMe {
     grid-area: aboutMe; 
-    margin-left: -5vw;
-    margin-right: 10vw;
+    margin-left: -10vw;
+    margin-right: 8vw;
     margin-top: 5vw;
-    width: 40vw;
+    width: 50vw;
     text-align: justify;
     /*display: block;
     margin-left: auto;
@@ -152,155 +179,35 @@ footer {
   font-size: 14px;
 }
 
-@media screen and (max-width: 992px) {
-  .ellipseCindy {
-    width: 100%;
-    display: block;
+@media only screen and (max-width: 992px) {
+
+  .logo {
+    font-size: 40px;
+    margin-left: 2vw;
   }
 
-  .navbar {
-    background-color: #FCEEEE;
-    height: fit-content;
+  .grid-container {
+    display: inline-block;
   }
-  .nav-item a {
-    text-decoration: none;
-    font-family: Montserrat, sans-serif;
-    color: #59656F;
-    font-size: 20px;
+  .photoCindy {
+    width: 80%;
+    float:center;
+    padding: 2vw;
   }
-  
-  .nav-item a:hover {
-    color: #DC0073;  
-    text-decoration: underline;
-    text-decoration-thickness: 5px;
-  
+  .ellipseCindy{
+    width: 100%; 
+    margin-left: 10vw;
+    margin-right: 10vw;
   }
-  .logo {
-    color: #59656F;
-    font-weight:500;
-    font-size: 60px;
-    font-family: Montserrat, sans-serif;
-    letter-spacing: 16px;
+  .aboutMe {
+    width: 80%;
+    margin-left: 10vw;
   }
-  .logo:hover {
-    color: #DC0073;  
-    text-decoration: none;
-  }
-    
-    /*main*/
-    
-    body {
-      background-color:#FCEEEE;
-    }
-  
-    .grid-container {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      grid-template-rows: 1fr;
-      gap: 0px 0px;
-      grid-template-areas:
-        "photoCindy aboutMe";
-    }
-    
-    .photoCindy { 
-      grid-area: photoCindy; 
-    }
-    
-    .aboutMe {
-      grid-area: aboutMe; 
-      margin-left: -10vw;
-      margin-top: 5vw;
-      width: 50vw;
-      text-align: justify;
-  
-    }
-    .aboutMe p {
-      font-family: Montserrat, sans-serif;
-      font-size: 16px;
-      color: #001858;
-      text-align: justify;
-    }
-    .aboutMe h4 {
-      color: #DC0073;
-      font-family: Montserrat, sans-serif;
-      font-size: 20px;
-      text-align: left;
-    }
-    .links button {
-      margin-top: 20px;
-      margin-bottom: 10px;
-      background-color: #FCEEEE;
-      font-family: Montserrat, sans-serif;
-      border: #FCEEEE;
-    }
-  
-    .links a {
-      font-size: 20px;
-      color: #DC0073;
-      font-weight: 400;
-      text-align: center;
-      letter-spacing: 0.8px;
-      text-indent: 0px;
-    }
-   
-    a:hover {
-      color:#59656F;
-      text-decoration: none;
-    }
-    
-    .links{
-      margin-bottom: 10%;
-      text-align: center;
-    }
-    
+
   footer {
-    height: 20vw;
-    background-color: #3D5A80;
-    display: flex;
-    align-items: center;
+    height: 40vw;
   }
-  
-  .footerText, .footerIcons {
-    margin-left: 12vw;
-  }
-  .footerText h1 {
-    color: white;
-    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
-    font-size: 18px;
-    letter-spacing: 0.8px;
-  }
-  
-  .footerText p {
-    font-family: Montserrat, sans-serif;
-    color: #fff;
-    font-size: 14px;
-    font-weight: 300;
-    letter-spacing: 0.5px;
-  }
-  
-  .footer-link {
-    font-family: Montserrat, sans-serif;
-    color: #fff;
-    font-size: 14px;
-    font-weight: 700;
-    letter-spacing: 0.5px;
-    margin-right: 2vw;
-  }
-  
-  .footer-link:hover {
-    color: #DC0073;
-    text-decoration: none;
-  }
-  
-  .navbarCopyright {
-    background-color: #3D5A80;
-  }
-  .copyright {
-    margin-left: 12vw;
-    color: white;
-    font-family: Montserrat, sans-serif;
-    font-size: 14px;
-  }
+}
 
 
 

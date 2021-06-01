@@ -1,0 +1,123 @@
+/*Navigation*/ 
+
+.navbar {
+    background-color: #FCEEEE;
+    height: fit-content;
+  }
+  .nav-item a {
+    text-decoration: none;
+    font-family: Montserrat, sans-serif;
+    color: #59656F;
+    font-size: 20px;
+  }
+  
+  .nav-item a:hover {
+    color: #DC0073;  
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+  }
+  .nav {
+    margin-right: 8vw;
+  }
+  .getInTouch {
+    background-color: #FCEEEE;
+    border: 2px solid #DC0073;
+    padding: 10px 22px;
+    margin-top: -0.2vw;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Montserrat, sans-serif;
+    border-radius: 100px;
+    cursor: pointer;
+  }
+  .getInTouch a {
+    color: #59656F;
+  }  
+  
+  .getInTouch:hover {
+    background-color: #DC0073;
+    border: 2px solid #DC0073;
+  }
+  .getInTouch a:hover{
+      color: white;
+  }
+  .logo {
+    color: #59656F;
+    font-weight:500;
+    font-size: 45px;
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 16px;
+    margin-left: 8vw;
+  }
+  .logo:hover {
+    color: #59656F; 
+    text-decoration: none;
+  }
+
+  /*NAVIGATION*/
+body{
+    background-color: #FCEEEE;
+}
+.bodyTxt {
+    height: 30vw;
+    padding: 70px 0;
+    text-align: center;
+}
+.inConstruction{
+    padding: 70px 0;
+    text-align: center;
+    font-family: 'Montserrat';
+    color: #59656F;
+}
+
+  /*footer*/
+
+footer {
+    height: 20vw;
+    background-color: #3D5A80;
+    display: flex;
+    align-items: center;
+}
+
+.footerText, .footerIcons {
+    margin-left: 12vw;
+}
+.footerText h1 {
+    color: white;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+}
+
+.footerText p {
+    font-family: Montserrat, sans-serif;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+
+.footer-link {
+    font-family: Montserrat, sans-serif;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin-right: 2vw;
+}
+
+.footer-link:hover {
+    color: #DC0073;
+    text-decoration: none;
+}
+
+.navbarCopyright {
+    background-color: #3D5A80;
+}
+.copyright {
+    margin-left: 12vw;
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+}

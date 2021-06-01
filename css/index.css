@@ -19,17 +19,44 @@ body {
     color: #DC0073;  
     text-decoration: underline;
     text-decoration-thickness: 5px;
-  
   }
+  .nav {
+    margin-right: 8vw;
+  }
+  .getInTouch {
+    background-color: #FCEEEE;
+    border: 2px solid #DC0073;
+    padding: 10px 22px;
+    margin-top: -0.2vw;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Montserrat, sans-serif;
+    border-radius: 100px;
+    cursor: pointer;
+  }
+  .getInTouch a {
+    color: #59656F;
+  }  
+  
+  .getInTouch:hover {
+    background-color: #DC0073;
+    border: 2px solid #DC0073;
+  }
+  .getInTouch a:hover{
+      color: white;
+  }
+    
   .logo {
     color: #59656F;
     font-weight:500;
-    font-size: 60px;
+    font-size: 45px;
     font-family: Montserrat, sans-serif;
     letter-spacing: 16px;
+    margin-left: 8vw;
   }
   .logo:hover {
-    color: #DC0073;  
+    color: #59656F; 
     text-decoration: none;
   }
 
@@ -55,10 +82,10 @@ body {
     vertical-align: middle;
 }
 .btnHero {
-    background-color: #DC0073;
+    background-color: #3D5A80;
     color: white;
     font-family: Montserrat, sans-serif;
-    border-radius: 8px;
+    border-radius: 100px;
     text-align: center;
     padding: 12px 32px;
     margin: 0;
@@ -101,8 +128,8 @@ body {
   }
 
 #boxCenter {
-    margin-left: 10%;
-    margin-right: 10%;    
+    margin-left: 15vw;
+    /*margin-right: 20vw; */   
   }
   
 .reeliiImg { 
@@ -199,7 +226,7 @@ body {
     margin: 0;
     margin-top: 2vw;
     position: absolute;
-    left: 68%;
+    left: 75%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     cursor: pointer;

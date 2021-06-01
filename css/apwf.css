@@ -15,17 +15,43 @@
     color: #DC0073;  
     text-decoration: underline;
     text-decoration-thickness: 5px;
+  }
+  .nav {
+    margin-right: 8vw;
+  }
+  .getInTouch {
+    background-color: #FCEEEE;
+    border: 2px solid #DC0073;
+    padding: 10px 22px;
+    margin-top: -0.2vw;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Montserrat, sans-serif;
+    border-radius: 100px;
+    cursor: pointer;
+  }
+  .getInTouch a {
+    color: #59656F;
+  }  
   
+  .getInTouch:hover {
+    background-color: #DC0073;
+    border: 2px solid #DC0073;
+  }
+  .getInTouch a:hover{
+      color: white;
   }
   .logo {
     color: #59656F;
     font-weight:500;
-    font-size: 60px;
+    font-size: 45px;
     font-family: Montserrat, sans-serif;
     letter-spacing: 16px;
+    margin-left: 8vw;
   }
   .logo:hover {
-    color: #DC0073;  
+    color: #59656F; 
     text-decoration: none;
   }
 

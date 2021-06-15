@@ -65,10 +65,18 @@ body{
     text-align: center;
 }
 .inConstruction{
-    padding: 70px 0;
     text-align: center;
+    margin-left: 20vw;
+    margin-right: 20vw;
     font-family: 'Montserrat';
     color: #59656F;
+}
+.autruches {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10vw;
+  width: 30vw;
 }
 
   /*footer*/

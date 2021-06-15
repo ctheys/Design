@@ -58,13 +58,13 @@
 /*Hero*/ 
 .Hero {
     background-color: #22173B;
-    padding: 5vw;
+    padding: 8vw;
 }
 .Hero h1 {
     color: white;
     text-align: center;
     font-size: 80px;
-    font-family: 'agencyFB Black'
+    font-family: 'agencyFB Black';
 }
 .Hero h2 {
     color: white;

@@ -3,12 +3,18 @@
 .navbar {
   background-color: #FCEEEE;
   height: fit-content;
+
 }
 .nav-item a {
   text-decoration: none;
   font-family: Montserrat, sans-serif;
   color: #59656F;
   font-size: 20px;
+  float: right;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  
 }
 
 .nav-item a:hover {
@@ -19,6 +25,7 @@
 .nav {
   margin-right: 8vw;
 }
+
 
 .getInTouch {
   background-color: #FCEEEE;
@@ -55,6 +62,8 @@
   color: #59656F; 
   text-decoration: none;
 }
+
+
   
   /*main*/
   
@@ -239,4 +248,5 @@ footer {
   footer {
     height: 40vw;
   }
-}
+
+  

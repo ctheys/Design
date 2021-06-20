@@ -292,20 +292,28 @@ footer {
 
 @media only screen and (max-width: 600px) {
 
+body {
+  margin:0;
+  padding:0;
+  height:100%;
+}
 .logo {
     font-size: 40px;
     margin-left: 2vw;
 }
 .About-Me h1 {
-    margin-top:10vw;
+    margin-top:20vw;
+    margin-bottom: 10vw;
     text-align: center;
     font-size: 35px;
+    
 }
 .caseStudies {
-    margin-top: 30vw;
+    margin-top: 50vw;
 }
 .text-center { 
     font-size: 25px;
+    margin-top: 20vw;
 }
 .container {
     display: grid; 
@@ -325,7 +333,7 @@ footer {
       "imgNavy"
       "txtNavy";
     width: 100%;
-    height: 600vw;
+    height: 100%;
 }
 
 .txtReelii,  .txtFreeLemon, .txtAPWF, .txtNavy{ 
@@ -334,23 +342,13 @@ footer {
   }
 .txtReelii h3,  .txtAPWF h3, .txtFreeLemon h3, .txtNavy h3 { 
     text-align: justify;
-    font-size: 40px;
+    font-size: 50px;
     width: 60vw;
   }
 
 .txtReelii h3 {
-  margin-top: -20vw;
+    margin-top: -0vw;
 }
-.txtFreeLemon h3 {
-  margin-top: -10vw;
-}
-.txtAPWF h3 {
-  margin-top: 5vw;
-}
-.txtNavy h3 {
-  margin-top: -15vw;
-}
-
 
 .leading-text {
   margin-top: 5vw;
@@ -365,15 +363,12 @@ footer {
   width: 60vw;
 }
 
-
 .imgReelii, .imgFreeLemon, .imgAPWF, .imgNavy {
-  /*display: flex;
-  margin-left: 10vw;*/
   justify-content: center;
   width:fit-content;
 }
   .Reeliipic {
-    max-width: 70vw;
+    max-width: 80vw;
     height: 55vw;
     margin-top: 6vw;
 }
@@ -411,9 +406,10 @@ footer {
     transform: translate(-50%, -50%);
   }
      
-    footer {
-        height: 40vw;   
-    }
+  footer {
+    height:200px;   
+   
+}
       
 }  
 

@@ -391,16 +391,16 @@ footer {
   }
   .About-Me h1 {
     margin-top:20vw;
-    margin-bottom: 20vw;
+    margin-bottom: 15vw;
     text-align: center;
     font-size: 35px;  
   }
   .caseStudies {
-    margin-top: 50vw;
+    margin-top: 10vw;
   }
   .text-center { 
     font-size: 25px;
-    margin-top: 20vw;
+    margin-top: 15vw;
   }
   .container {
     display: grid; 
@@ -423,12 +423,12 @@ footer {
     height: 100%;
   }
 .txtReelii,  .txtFreeLemon, .txtAPWF, .txtNavy{ 
-    font-size: 40px;   
+    font-size: 30px;   
   }
 .txtReelii h3,  .txtAPWF h3, .txtFreeLemon h3, .txtNavy h3 { 
     text-align: justify;
-    font-size: 50px;
-    width: 60vw;
+    font-size: 40px;
+    width: 60vw;*/
   }
 .txtReelii h3 {
     margin-top: -0vw;
@@ -490,7 +490,14 @@ footer {
 @media only screen and (max-width: 600px) {
 
 .nav-logo {
-  font-family: 20px
+  color: #59656F;
+  font-weight:300;
+  font-size: 25px;
+  font-family: Montserrat, sans-serif;
+  letter-spacing: 16px;
+  margin-left: 2vw;
+  text-decoration: none;
+  }
 }
 .nav-menu {
   position: fixed;
@@ -547,7 +554,7 @@ footer {
   font-size: 35px;
 }
 .caseStudies {
-  margin-top: 50vw;
+  margin-top: 20vw;
 }
 .text-center { 
   font-size: 25px;
@@ -560,7 +567,7 @@ footer {
   grid-auto-rows: 1fr; 
   grid-template-columns: 1fr; 
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr; 
-  gap: 15px 15px; 
+  /*gap: 15px 15px;*/
   grid-template-areas: 
     "imgReelii" 
     "txtReelii"
@@ -570,54 +577,62 @@ footer {
     "txtAPWF"
     "imgNavy"
     "txtNavy";
-  width: 100%;
+  width: 80%;
   height: 100%;
 }
 .txtReelii,  .txtFreeLemon, .txtAPWF, .txtNavy{ 
-  font-size: 40px;
+  width: 30vw;
+  margin-left: -5vw;
 }
 .txtReelii h3,  .txtAPWF h3, .txtFreeLemon h3, .txtNavy h3 { 
-  text-align: justify;
-  font-size: 50px;
-  width: 60vw;
+  text-align: left;
+  font-size: 25px;
 }
 .txtReelii h3 {
-  margin-top: -0vw;
+  margin-top: -30px;
 }
+.txtFreeLemon h3 {
+  margin-top: -20px;
+}
+.txtAPWF h3 {
+  margin-top: -20px;
+}
+.txtNavy h3 {
+  margin-top: -20vw;
+}
+
+
 .leading-text {
-  margin-top: 5vw;
-  font-size: 20px;
-  width: 60vw;
+  font-size: 15px;
   text-align: justify;
 }
 .txtReelii p, .txtAPWF p, .txtFreeLemon p, .txtNavy p {
-  font-family: Montserrat, sans-serif;
-  font-size: 14px;
+  font-size: 12px;
   font-style: italic;
-  width: 60vw;
 }
 .imgReelii, .imgFreeLemon, .imgAPWF, .imgNavy {
   justify-content: center;
   width:fit-content;
 }
 .Reeliipic {
-  max-width: 80vw;
-  height: 55vw;
-  margin-top: 6vw;
+  max-width: 60vw;
+  height: 45vw; 
 }
 .navypic {
-  max-width: 80vw;
-  height: 55vw;
-  margin-top: 6vw;
+  max-width: 60vw;
+  height: 45vw;
+  margin-top: 2vw;
 }
 .Lemonpic { 
   max-width: 90vw;
   height: 60vw;
+  margin-left: -6vw;
 }
 .petpic {
   max-width: 90vw;
   height: 60vw;
   margin-top: 10vw;
+  margin-left: -10vw
 }
 .viewCaseStudyLeft, .viewCaseStudyRight {
   padding: 2vw 2vw;

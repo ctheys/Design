@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #FCEEEE;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+}
+
+.nav-item a {
+    text-decoration: none;
+    font-family: Montserrat, sans-serif;
+    color: #59656F;
+    font-size: 20px;
+    padding: 2vw;
+  }
+
+.header{
+    border-bottom: 1px solid #E2E8F0;
+}
+
+.nav-item a:hover {
+    color: #DC0073;  
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+  }
+  
+  .getInTouch {
+    background-color: #FCEEEE;
+    border: 2px solid #DC0073;
+    padding: 10px 22px;
+    margin-top: -0.2vw;
+    text-align: center;
+    font-size: 20px;
+    font-family: Montserrat, sans-serif;
+    border-radius: 100px;
+    cursor: pointer;
+    margin-right: 2vw;
+  }
+  .getInTouch a {
+    color: #59656F;
+    text-decoration: none;
+  }  
+  
+  .getInTouch:hover {
+    background-color: #DC0073;
+    border: 2px solid #DC0073;
+  }
+  .getInTouch a:hover{
+      color: white;
+  }
+
+  li {
+    list-style: none;
+  }   
+    
+  .logo:hover {
+    color: #59656F; 
+    text-decoration: none;
+  }
+
+.hamburger {
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #101010;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.nav-logo {
+    color: #59656F;
+    font-weight:500;
+    font-size: 45px;
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 16px;
+    margin-left: 8vw;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 5rem;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow:
+            0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-item {
+        margin: 2.5rem 0;
+    }
+
+    .getInTouch {
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+        background-color: white;
+        border: none;
+    }
+
+    .getInTouch:hover{
+        background-color: white;
+        border: none
+    }
+
+    .getInTouch a:hover{
+        color: #DC0073;  
+        text-decoration: underline;
+        text-decoration-thickness: 5px;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        -webkit-transform: translateY(8px) rotate(45deg);
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        -webkit-transform: translateY(-8px) rotate(-45deg);
+        transform: translateY(-8px) rotate(-45deg);
+    }
+}

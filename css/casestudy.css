@@ -156,3 +156,236 @@
         transform: translateY(-8px) rotate(-45deg);
     }
 }
+
+/*Hero*/
+
+body {
+    background-color: #FCEEEE;
+}
+
+.presentation {
+    height: 35vw;
+    background-color: #FCEEEE;
+    text-align: left;
+    margin-left: 9vw;
+    margin-right: 15vw;
+}
+
+.About-Me h1 { 
+    margin-top:5vw;
+    margin-bottom: 5vw;
+    font-size: 70px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    line-height: 100px;
+    color: #59656F;
+    line-height: 1.6;
+    vertical-align: middle;
+    text-align: left;
+}
+.text-center { 
+    text-align: center;
+    color: #DC0073;
+    font-family: Montserrat, sans-serif;
+    font-size: 50px;
+    padding: 5%;
+}
+
+/*Case Study*/
+.caseStudies {
+    background-color: #FCEEEE;
+    height:fit-content;
+    padding: 20px;
+    margin-top: 5vw;
+}
+#work {
+    background-color: #FCEEEE;
+    margin-left: 8vw;
+    margin-right: 8vw;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 10px 60px;
+    grid-auto-flow: column;
+    grid-template-areas:
+      "imgReelii txtReelii"
+      "txtFreeLemon imgFreeLemon"
+      "imgAPWF txtAPWF"
+      "txtNavy imgNavy";
+    width: 100%;
+    height: 100%;
+  }
+  .txtReelii,  .txtFreeLemon, .txtAPWF, .txtNavy{ 
+    font-family: Montserrat, sans-serif;
+    padding: 2%;
+    max-width: 40vw;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: left;
+    font-size: 40px;
+}
+.txtReelii h3,  .txtFreeLemon h3, .txtAPWF h3, .txtNavy h3{ 
+    margin-top: 5vw;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    text-align: left;
+    letter-spacing: 2px;
+    font-size: 50px;
+    line-height: 44px;  
+    width: 30vw;  
+}
+.leading-text {
+    margin-top: 10%;
+    font-size: 16px;
+    text-align: left;
+}
+.txtReelii p, .txtFreeLemon p, .txtAPWF p, .txtNavy p {
+    font-family: Montserrat, sans-serif;
+    font-size: 12px;
+    font-style: italic;
+    margin-top: 2vw;
+}
+
+  .Reeliipic, .navypic {
+      max-width: 40vw;
+      margin-top: 6vw;
+  }
+
+  .Lemonpic, .petpic {
+    max-width: 45vw;
+    margin-top: 6vw;
+    
+}
+  .imgReelii { 
+    grid-area: imgReelii; 
+    max-width: 30vw;
+    float:left;
+}
+  
+  .txtReelii { 
+    grid-area: txtReelii; 
+    float: right;
+    margin-left: 5vw;
+}
+  
+  .txtFreeLemon { 
+    grid-area: txtFreeLemon; 
+}
+  
+  .imgFreeLemon { 
+    grid-area: imgFreeLemon;
+    max-width: 30vw;
+    margin-left: -5vw; 
+}
+  
+  .imgAPWF { 
+    grid-area: imgAPWF; 
+    max-width: 30vw
+}
+  
+  .txtAPWF { 
+    grid-area: txtAPWF; 
+    margin-left: 5vw;
+}
+  
+  .txtNavy { 
+    grid-area: txtNavy; 
+}
+  
+  .imgNavy { 
+    grid-area: imgNavy; 
+    max-width: 30vw;
+    margin-left: -5vw;
+}
+
+/*buttons*/
+
+.viewCaseStudyRight {
+    background-color: #3D5A80;
+    font-size: 14px;
+    color: white;
+    font-family: Montserrat, sans-serif;
+    border-radius: 100px;
+    text-align: center;
+    padding: 8px 18px;
+    margin: 0;
+    position:absolute;
+    left: 60vw;
+    cursor: pointer;
+}
+.viewCaseStudyLeft {
+    background-color: #3D5A80;
+    font-size: 14px;
+    color: white;
+    font-family: Montserrat, sans-serif;
+    border-radius: 100px;
+    text-align: center;
+    padding: 8px 18px;
+    margin: 0;
+    position:absolute;
+    left: 20vw;
+    cursor: pointer;
+}
+.viewCaseStudyLeft:hover, .viewCaseStudyRight:hover {
+    background-color: #FCEEEE;
+    border: 2px solid #3D5A80;
+    text-decoration: none;
+}
+.viewCaseStudyLeft a:hover, .viewCaseStudyRight a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+/*footer*/
+
+footer {
+    height: 20vw;
+    background-color: #3D5A80;
+    display: flex;
+    align-items: center;
+  }
+  
+  .footerText, .footerIcons {
+    margin-left: 12vw;
+  }
+  .footerText h1 {
+    color: white;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+  }
+  
+  .footerText p {
+    font-family: Montserrat, sans-serif;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+  }
+  
+  .footer-link {
+    font-family: Montserrat, sans-serif;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin-right: 2vw;
+  }
+  
+  .footer-link:hover {
+    color: #DC0073;
+    text-decoration: none;
+  }
+  
+  .navbarCopyright {
+    background-color: #3D5A80;
+  }
+  .copyright {
+    margin-left: 12vw;
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+  }

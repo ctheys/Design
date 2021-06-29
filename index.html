@@ -14,24 +14,20 @@
 
 
 <header>
-  <header class="header">
-    <nav class="navbar">
-        <a href="../design/index.html" class="nav-logo">CINDY<span style="color:#DC0073">LAO</span></a>
-        <ul class="nav-menu">
-            <li class="nav-item">
-                <a class="nav-link" href="../design/about.html">about</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../design/reelii.html">work</a>
-              </li>
-                <button class="getInTouch"><a href="mailto:lao.cind@gmail.com">get in touch</a></button>
-        </ul>
-        <div class="hamburger">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </div>
-    </nav>
+  <div class="navbar">
+    <a href="../design/index.html" class="logo">CINDY<span style="color:#DC0073">LAO</span></a>
+    <ul class="nav justify-content-end">
+      <li class="nav-item">
+        <a class="nav-link" href="../design/about.html">about</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../design/reelii.html">work</a>
+      </li>
+        <button class="getInTouch"><a href="mailto:lao.cind@gmail.com">get in touch</a></button>     
+    </ul>
+    
+  </div>
+
 </header>
 
 <body>  
@@ -44,63 +40,77 @@
     </div>
   </div>
 
-  <section class="caseStudies" id="work">
-    <div class="caseStudyTitle">
-        <h2 class="text-center">Some of my selected work</h2>
-    </div>
-
-  <div class="container">
-
-    <div class="imgReelii">
-      <img src="../design/images/Reelii/previewed2.png" class="Reeliipic">
-    </div>
-    <div class="txtReelii">
-      <h3><b>Reelii</b></h3>
-      <h5 class="leading-text">Product design for an app that offers TV streamers recommendations via friend’s sharing and by personal preferences.</h5>
-      <p>User Research, Sketching & Wireframes, High Fidelity Clickable Prototypes</p>
-      <button><a href="../design/reelii.html" class="viewCaseStudyRight">View case study</a></button>
-    </div>
-
-    <div class="txtFreeLemon">
-      <h3><b>Free Lemons</b></h3>
-      <h5 class="leading-text">Product design that offers a way to donate or find fresh produce in the user's community that would otherwise go to waste.</h5>
-      <p>User Research, Sketching & Wireframes, High Fidelity Clickable Prototypes, Font End Development</p>
-      <button><a href="../design/freelemon.html" class="viewCaseStudyLeft">View case study</a></button>
-    </div>
-
-    <div class="imgFreeLemon">
-      <img src="../design/images/FreeLemons/freelemon-mockup2.png" class="Lemonpic">
-    </div>
-
-    <div class="imgAPWF">
-      <img src="images/APWF/apwf-mockup.png" class="petpic">
-    </div>
-
-    <div class="txtAPWF">
-      <h3>Australian Pet Welfare Foundation</h3>
-      <h5 class="leading-text">Redesign of the Australian Pet Welfare Foundation.</h5>
-      <p>User Research, Sketching & Wireframes, Information Architecture, High Fidelity Clickable Prototypes</p>
-      <button><a href="../design/apwf.html" class="viewCaseStudyRight">View case study</a></button>
-    </div>
-
-    <div class="txtNavy">
-      <h3>The Australian Royal Navy</h3>
-        <h5 class="leading-text">Redesign of the Navy Government website </h5>
-        <p>User Research, Sketching & Wireframes, High Fidelity Clickable Prototypes</p>
-        <button><a href="../design/navy.html" class="viewCaseStudyLeft">View case study</a></button>
-    </div>
-
-    <div class="imgNavy">
-      <img src="../design/images/Navy/navy-mockup2.jpeg" class="navypic">
-    </div>
+  <div class="selectedWork">
+    <p class="text-center">Some of my selected work</p>
   </div>
 
-  
+  <header id="hero" class="case-study-right">
+    <div class="flex-container w-container">
+      <div class="hero-image-mask">
+        <img src="../design/images/Reelii/previewed2.png" sizes="(max-width: 667px) 80vw alt="" class="hero-image" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
+      </div>
+      <div class="hero-block-right" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
+        <h1 class="project-heading">Reelii</h1>
+        <p class="paragraph">Product design for an app that offers TV streamers recommendations via friend’s sharing and by personal preferences.</p>
+        <div class="div-block-13">
+          <p class="paragraph-cs-headline">User Research, Sketching & Wireframes, High Fidelity Clickable Prototypes</p>
+        </div>
+        <a href="../design/reelii.html" class="button w-button">View project</a>
+      </div>
+    </div>
+  </header>
 
+  <header id="hero" class="case-study-left">
+    <div class="flex-container w-container">
+      <div class="hero-block-left" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
+        <h1 class="project-heading">Free Lemons</h1>
+        <p class="paragraph">Product design that offers a way to donate or find fresh produce in the user's community that would otherwise go to waste.</p>
+        <div class="div-block-13">
+          <p class="paragraph-cs-headline">User Research, Sketching & Wireframes, High Fidelity Clickable Prototypes, Font End Development</p>
+        </div>
+        <a href="../design/freelemon.html" class="button w-button">View project</a>
+      </div>
+      <div class="hero-image-mask">
+        <img src="../design/images/FreeLemons/freelemon-mockup2.png" sizes="(max-width: 779px) 100vw, (max-width: 767px) 95vw, (max-width: 991px) 300.4375px, 434.015625px" alt="" class="hero-image" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
+      </div>
+    </div>
+  </header>
 
+  <header id="hero" class="case-study-right">
+    <div class="flex-container w-container">
+      <div class="hero-image-mask">
+        <img src="../design/images/APWF/apwf-mockup.png" sizes="(max-width: 767px) 100vw, (max-width: 991px) 369.5px, 520.625px" alt="" class="hero-image" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
+      </div>
+      <div class="hero-block-right" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
+        <h1 class="project-heading">Australian Pet Welfare Foundation</h1>
+        <p class="paragraph">Redesign of the Australian Pet Welfare Foundation.</p>
+        <div class="div-block-13">
+          <p class="paragraph-cs-headline">User Research, Sketching & Wireframes, Information Architecture, High Fidelity Clickable Prototypes</p>
+        </div>
+      <a href="/apwf.html" class="button w-button">View project</a>
+      </div>
+    </div>
+  </header>
 
-  
-</section>
+  <header id="hero" class="case-study-left">
+    <div class="flex-container w-container">
+      <div class="hero-block-left" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
+        <h1 class="project-heading">
+          <strong class="project-heading">The Australian Royal Navy</strong>
+        </h1>
+        <p class="paragraph">Redesign of the Navy Government website</p>
+        <div class="div-block-13">
+          <p class="paragraph-cs-headline">ser Research, Sketching & Wireframes, High Fidelity Clickable Prototypes</p>
+        </div>
+        <a href="/navy.html" class="button w-button">View project</a>
+      </div>
+      <div class="hero-image-mask">
+        <img src="../design/images/Navy/navy-mockup2.jpeg" sizes="(max-width: 279px) 50vw" alt="" class="hero-image" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
+      </div>
+    </div>
+  </header>
+
+      
 
 
    

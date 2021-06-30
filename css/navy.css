@@ -58,6 +58,7 @@
   /*NAVIGATION*/
 body{
     background-color: #FCEEEE;
+    height: 100%;
 }
 .bodyTxt {
     height: 30vw;
@@ -128,4 +129,16 @@ footer {
     color: white;
     font-family: Montserrat, sans-serif;
     font-size: 14px;
+}
+
+@media screen and (max-width: 660px) {
+  body {
+    height: 100%;
+    min-height: 100%;
+  }
+  footer {
+    margin-top: 40vw;
+    clear: both;
+    position: relative;
+    height: 40vw;
 }

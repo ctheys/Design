@@ -1,66 +1,55 @@
 /*Navigation*/ 
-
-.navbar {
-  background-color: #FCEEEE;
-  height: fit-content;
-
+.topnav {
+	background-color: #FCEEEE;
+	overflow: hidden;
+	display: block;
 }
-.nav-item a {
-  text-decoration: none;
+
+.logo {
+	color: #59656F;
+	font-weight:500;
+	font-size: 45px;
+	font-family: Montserrat, sans-serif;
+	letter-spacing: 16px;
+	margin-left: 8vw;
+	margin-right: 35vw;
+}
+  
+.logo:hover {
+	color: #59656F; 
+	background-color: #FCEEEE;
+	text-decoration: none;
+}
+  
+.topnav a {
+	text-decoration: none;
   font-family: Montserrat, sans-serif;
   color: #59656F;
   font-size: 20px;
-  float: right;
+  float: left;
   display: block;
   text-align: center;
   padding: 14px 16px;
-  
 }
-
-.nav-item a:hover {
-  color: #DC0073;  
+  
+.nav-link:hover {
+	color: #DC0073;  
   text-decoration: underline;
   text-decoration-thickness: 5px;
 }
-.nav {
-  margin-right: 8vw;
+  
+.topnav a.active {
+	background-color: #04AA6D;
+	color: white;
 }
 
+.topnav .icon {
+	display: none;
+}
 
-.getInTouch {
-  background-color: #FCEEEE;
-  border: 2px solid #DC0073;
-  padding: 10px 22px;
-  margin-top: -0.2vw;
-  text-align: center;
-  text-decoration: none;
-  font-size: 20px;
-  font-family: Montserrat, sans-serif;
-  border-radius: 100px;
-  cursor: pointer;
-}
-.getInTouch a {
-  color: #59656F;
-}  
-
-.getInTouch:hover {
-  background-color: #DC0073;
-  border: 2px solid #DC0073;
-}
-.getInTouch a:hover{
-    color: white;
-}
-.logo {
-  color: #59656F;
-  font-weight:500;
-  font-size: 45px;
-  font-family: Montserrat, sans-serif;
-  letter-spacing: 16px;
-  margin-left: 8vw;
-}
-.logo:hover {
-  color: #59656F; 
-  text-decoration: none;
+.liens {
+	float: right;
+	display: block;
 }
 
 
@@ -182,29 +171,55 @@ footer {
   background-color: #3D5A80;
 }
 .copyright {
-  margin-left: 12vw;
   color: white;
   font-family: Montserrat, sans-serif;
   font-size: 14px;
 }
 
+@media screen and (max-width: 1068px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+  .logo {
+    margin-right: 20vw;
+  }
+  .topnav {
+    display: block;
+  }
+}
+
 @media only screen and (max-width: 992px) {
 
-  .logo {
-    font-size: 40px;
-    margin-left: 2vw;
-  }
+  .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .logo {
+      margin-right: 0vw;
+    }
+    .topnav {
+      display: block;	
+    }
 
-  .grid-container {
+    .grid-container {
     display: inline-block;
-  }
+    }
   .photoCindy {
     width: 80%;
     float:center;
     padding: 2vw;
   }
   .ellipseCindy{
-    width: 100%; 
+    width: 80%; 
     margin-left: 10vw;
     margin-right: 10vw;
   }
@@ -218,14 +233,50 @@ footer {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .logo {
+    margin-right: 0;
+  }
 
+  .ellipseCindy{
+    width: 70%; 
+    display: block;
+    margin-left: 20vw;
+    margin-right: auto;
+  }
+
+  footer {
+    height: 40vw;
+  }
+}
 
 @media only screen and (max-width: 600px) {
 
-  .logo {
-    font-size: 40px;
-    margin-left: 2vw;
-  }
+  .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .logo {
+      margin-right: 0;
+    }
 
   .grid-container {
     display: inline-block;
@@ -236,9 +287,11 @@ footer {
     padding: 2vw;
   }
   .ellipseCindy{
-    width: 100%; 
-    margin-left: 10vw;
-    margin-right: 10vw;
+    width: 70%; 
+    display: block;
+    margin-left: 20vw;
+    margin-right: auto;
+  }
   }
   .aboutMe {
     width: 80%;
@@ -248,5 +301,6 @@ footer {
   footer {
     height: 40vw;
   }
+}
 
   

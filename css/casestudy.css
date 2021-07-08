@@ -56,9 +56,6 @@
 	display: block;
   }
 
-  .icon {
-	  text-align: center;
-  }
 
 @media screen and (max-width: 1068px) {
 	.topnav a:not(:first-child) {display: none;}

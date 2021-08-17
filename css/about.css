@@ -37,11 +37,6 @@
   text-decoration: underline;
   text-decoration-thickness: 5px;
 }
-  
-.topnav a.active {
-	background-color: #04AA6D;
-	color: white;
-}
 
 .topnav .icon {
 	display: none;
@@ -59,35 +54,19 @@
   body {
     background-color:#FCEEEE;
   }
-
-  .grid-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    gap: 0px 0px;
-    grid-template-areas:
-      "photoCindy aboutMe";
-  }
-  
-  .photoCindy { 
-    grid-area: photoCindy; 
-  }
-  
   .ellipseCindy {
-    width: 28vw;
-    margin-left: 10vw;
-    margin-top: 5vw;
+    width: 20vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    float: left
   }
   .aboutMe {
-    grid-area: aboutMe; 
-    margin-left: -10vw;
+    
+    margin-left: 20vw;
     margin-right: 8vw;
     margin-top: 5vw;
-    width: 50vw;
+    width: 10vw;
     text-align: justify;
-    /*display: block;
-    margin-left: auto;
-    margin-right: auto;*/
   }
   .aboutMe p {
     font-family: Montserrat, sans-serif;
@@ -128,6 +107,8 @@
     text-align: center;
   }
   
+/*footer*/
+
 footer {
   height: 20vw;
   background-color: #3D5A80;
@@ -171,11 +152,39 @@ footer {
   background-color: #3D5A80;
 }
 .copyright {
+  display: inline-block;
   color: white;
   font-family: Montserrat, sans-serif;
   font-size: 14px;
+  margin-top: 2vw;
 }
 
+@media screen and (max-width: 1200px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+  .logo {
+    margin-right: 0vw;
+  }
+  .topnav {
+    display: block;
+  }
+  .ellipseCindy {
+    width: 20vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    float: left
+  }
+  .aboutMe {
+    margin-left: 20vw;
+    margin-right: 8vw;
+    margin-top: 5vw;
+    width: 10vw;
+    text-align: justify;
+  }
+}
 @media screen and (max-width: 1068px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
@@ -183,10 +192,23 @@ footer {
     display: block;
   }
   .logo {
-    margin-right: 20vw;
+    margin-right: 0vw;
   }
   .topnav {
     display: block;
+  }
+  .ellipseCindy {
+    width: 50vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    float: left
+  }
+  .aboutMe {
+    margin-left: 20vw;
+    margin-right: 8vw;
+    margin-top: 5vw;
+    width: 10vw;
+    text-align: justify;
   }
 }
 
@@ -210,23 +232,18 @@ footer {
       display: block;	
     }
 
-    .grid-container {
-    display: inline-block;
+    .ellipseCindy {
+      width: 80vw;
+      padding: 10vw;
+      display: inline-block;
     }
-  .photoCindy {
-    width: 80%;
-    float:center;
-    padding: 2vw;
-  }
-  .ellipseCindy{
-    width: 80%; 
-    margin-left: 10vw;
-    margin-right: 10vw;
-  }
-  .aboutMe {
-    width: 80%;
-    margin-left: 10vw;
-  }
+    .aboutMe {
+      margin-left: 20vw;
+      margin-right: 8vw;
+      margin-top: 5vw;
+      width: 15vw;
+      text-align: justify;
+    }
 
   footer {
     height: 40vw;
@@ -249,11 +266,17 @@ footer {
     margin-right: 0;
   }
 
-  .ellipseCindy{
-    width: 70%; 
-    display: block;
+  .ellipseCindy {
+    width: 80vw;
+    padding: 10vw;
+    display: inline-block;
+  }
+  .aboutMe {
     margin-left: 20vw;
-    margin-right: auto;
+    margin-right: 8vw;
+    margin-top: 5vw;
+    width: 15vw;
+    text-align: justify;
   }
 
   footer {

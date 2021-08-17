@@ -37,11 +37,6 @@
   text-decoration: underline;
   text-decoration-thickness: 5px;
 }
-  
-.topnav a.active {
-	background-color: #04AA6D;
-	color: white;
-}
 
 .topnav .icon {
 	display: none;
@@ -402,10 +397,10 @@ footer {
 }
 .copyright {
   display: inline-block;
-  margin-left: 12vw;
   color: white;
   font-family: Montserrat, sans-serif;
   font-size: 14px;
+  margin-top: 2vw;
 }
  
         

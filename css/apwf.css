@@ -147,7 +147,6 @@
 }
 .part1Txt p, .part2Txt p, .part3Txt p, .part4Txt p, .part5Txt p, .part6Txt p {
     color: black;
-    text-align: justify;
     font-family: Montserrat, sans-serif;
     font-size: 18px;
     margin-top: 3vw;
@@ -194,7 +193,6 @@
     margin-left: 7vw;
     margin-right: 7vw;
     display: flex;
-    -webkit-box-pack: justify;
     justify-content: space-between;
     flex-wrap: wrap;
 }

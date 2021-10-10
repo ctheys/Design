@@ -65,13 +65,11 @@ body {
     margin-right: 8vw;
     margin-top: 5vw;
     width: 80vw;
-    text-align: justify;
   }
   .aboutMe p {
     font-family: Montserrat, sans-serif;
     font-size: 16px;
     color: #001858;
-    text-align: justify;
   }
   .aboutMe h4 {
     color: #DC0073;
@@ -169,19 +167,7 @@ footer {
   .topnav {
     display: block;
   }
-  .ellipseCindy{ 
-    float: left;
-    width: 30vw;
-    margin-left: 5vw;
-    margin-right: 2vw;
-    margin-bottom: 2vw;
-    float: left
-}
-  .aboutMe {
-    display: inline-block;
-    margin-top: 5vw;
-    width: 80vw;
-    margin-left: 5vw;
+  
 }
 @media screen and (max-width: 1068px) {
   .topnav a:not(:first-child) {display: none;}
@@ -195,13 +181,7 @@ footer {
   .topnav {
     display: block;
   }
-  .ellipseCindy{ 
-    width: 30vw;
-    margin-left: 5vw;
-    margin-right: 2vw;
-    margin-bottom: 2vw;
-    float: left
-
+  
 }
   
 @media screen and (max-width: 992px) {
@@ -223,21 +203,6 @@ footer {
     display: block;	
   }
   
-  .ellipseCindy{ 
-    display: inline-block;
-    float: center;
-    width:50%; 
-    margin-top: -10vw;
-    margin-left: 20vw;
-    margin-right: 20vw;
-    margin-bottom: 5vw;
-  }
-  .aboutMe {
-    display: inline-block;
-    margin-top: 20vw;
-    width: 80vw;
-    margin-left: 10vw;
-  }
   .footerText h1 {
    font-size: 16px;
   }
@@ -268,22 +233,7 @@ footer {
   .logo {
     margin-right: 0;
   }
-  .ellipseCindy{ 
-    display: inline-block;
-    float: center;
-    width:50%; 
-    margin-top: -10vw;
-    margin-left: 30vw;
-    margin-right: 30vw;
-    margin-bottom: 5vw;
-  }
-  .aboutMe {
-    display: inline-block;
-    margin-top: 20vw;
-    width: 100vw;
-    margin-left: 10vw;
-  }
- 
+   
   .footerText h1 {
     font-size: 14px;
    }
@@ -316,20 +266,7 @@ footer {
         margin-right: 0;
       }
 
-      .ellipseCindy{ 
-        display: inline-block;
-        float: center;
-        width: 80%; 
-        margin-left: 10vw;
-        margin-right: 10vw;
-        margin-bottom: 10vw;
-      }
-      .aboutMe {
-        display: inline-block;
-        margin-top: 20vw;
-        width: 80vw;
-        margin-left: 10vw;
-      }
+    
           
       .footerText h1 {
         font-size: 16px;

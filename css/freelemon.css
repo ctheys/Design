@@ -147,7 +147,6 @@
 
 .part1Txt p, .part2Txt p, .part3Txt p, .part4Txt p, .part5Txt p {
     color: #3D5A80;
-    text-align: justify;
     font-family: Montserrat, sans-serif;
     font-size: 18px;
     margin-left: 8vw;
@@ -165,7 +164,6 @@
 
 .part1Txt h6 {
     color: #3D5A80;
-    text-align: justify;
     font-family: Montserrat, sans-serif;
     font-size: 20px;
     font-style: bold;
@@ -291,7 +289,6 @@
 
 .finalThoughts li {
     color: #3D5A80;
-    text-align: justify;
     font-family: Montserrat, sans-serif;
     font-size: 18px;
     margin-left: 8vw;
@@ -321,7 +318,6 @@ hr {
     margin-left: 7vw;
     margin-right: 7vw;
     display: flex;
-    -webkit-box-pack: justify;
     justify-content: space-between;
     flex-wrap: wrap;
 }
